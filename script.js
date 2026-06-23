@@ -17,3 +17,9 @@
 // const h1 = document.getElementByClassName"h1") 
 // console.dir(h1) ----------- Give Class Name
 
+/* ====================================
+        Changing of HTML 
+   ==================================== */
+   const h2 = document.querySelector("h2");
+   h2.textContent = "polo"
+
