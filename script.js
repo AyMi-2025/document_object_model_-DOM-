@@ -20,6 +20,37 @@
 /* ====================================
         Changing of HTML 
    ==================================== */
-   const h2 = document.querySelector("h2");
-   h2.textContent = "polo"
+//    const h2 = document.querySelector("h2");
+//    h2.textContent = "polo"
 
+
+/* ====================================
+        Classes()
+   ==================================== */
+
+// const h1 = document.querySelector(".head")
+
+/* contain()-----------------------------------
+
+const isClass = h1.classList.contains("head")
+console.log(isClass) */
+
+
+/* toggle()-----------------------------------
+
+const isToggle = h1.classList.toggle("head")
+console.log(iToggle) */
+
+
+/* replace(old, new)-----------------------------------
+
+const replacing = h1.classList.replace("head", 'head1")
+console.log(replacing) */
+
+
+/* add()-----------------------------------
+
+const div = document.querySelector("#div")
+
+ div.classList.add("boxx")
+console.log(div) */
