@@ -54,3 +54,23 @@ const div = document.querySelector("#div")
 
  div.classList.add("boxx")
 console.log(div) */
+
+/* ====================================
+        Attributes
+   ==================================== */
+// img , src , alt , placeholder...
+
+const h3 = document.querySelector("#id1")
+
+// getAttribute -----------------------------
+// console.log(h3.getAttribute("id"))
+
+// setAttribute ------------------------------
+// console.log(h3.setAttribute("Width", "Value"))
+
+// hasAttribute -----------------------------
+// console.log(h3.hasAttribute("Width"))
+
+// removeAttribute ------------------------------
+// console.log(h3.removeAttribute("Class"))
+
