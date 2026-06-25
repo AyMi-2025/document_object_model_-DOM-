@@ -60,7 +60,7 @@ console.log(div) */
    ==================================== */
 // img , src , alt , placeholder...
 
-const h3 = document.querySelector("#id1")
+// const h3 = document.querySelector("#id1")
 
 // getAttribute -----------------------------
 // console.log(h3.getAttribute("id"))
@@ -73,4 +73,15 @@ const h3 = document.querySelector("#id1")
 
 // removeAttribute ------------------------------
 // console.log(h3.removeAttribute("Class"))
+
+
+/* ====================================
+        Custom Attributes
+   ==================================== */
+const userCard = document.querySelector("#user_card")
+
+userCard.dataset.userId = "678"
+console.log(userCard.getAttribute("data-user-id"))
+
+
 
