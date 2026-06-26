@@ -2,6 +2,8 @@
         Selection of an Element 
    ==================================== */
 
+const { createElement } = require("react");
+
 // const h1 = document.querySelector("h1") // Universal (Always use this)
 // console.dir(h1) ------------ dir = directory 
 
@@ -86,12 +88,31 @@ console.log(div) */
 /* ========================================================
         input.value v/s input.getAttribute('Value")
    ======================================================== */
+// const inp = document.querySelector("input")
+// const btn = document.querySelector("button")
 
-const inp = document.querySelector("input")
-const btn = document.querySelector("button")
+// btn.addEventListener("click", () => {
+//         console.log("This is inp.value----> ", inp.value); 
+//         console.log("This is via Attribute---------->", inp.getAttribute("value"));     
+// })
 
-btn.addEventListener("click", () => {
-        console.log("This is inp.value----> ", inp.value); 
-        console.log("This is via Attribute---------->", inp.getAttribute("value"));     
-})
+/* =========================================
+        Creating, Inserting & Removing 
+   ========================================= */
+// Creating -------------------------------
 
+// let footer = document.createElement("footer")
+// console.log(footer);
+
+// const span = document.createElement("span")
+
+// Insertion ----------------------------------
+// i) appendChild()
+// document.body.appendChild(footer)
+// document.body.appendChild(span) ---------------> Single
+
+// ii) append
+// document.body.append(footer, span) -------> Multiple
+
+// Removee ------------------------------
+// body.removeChild(span)
