@@ -78,10 +78,20 @@ console.log(div) */
 /* ====================================
         Custom Attributes
    ==================================== */
-const userCard = document.querySelector("#user_card")
+// const userCard = document.querySelector("#user_card")
 
-userCard.dataset.userId = "678"
-console.log(userCard.getAttribute("data-user-id"))
+// userCard.dataset.userId = "678"
+// console.log(userCard.getAttribute("data-user-id"))
 
+/* ========================================================
+        input.value v/s input.getAttribute('Value")
+   ======================================================== */
 
+const inp = document.querySelector("input")
+const btn = document.querySelector("button")
+
+btn.addEventListener("click", () => {
+        console.log("This is inp.value----> ", inp.value); 
+        console.log("This is via Attribute---------->", inp.getAttribute("value"));     
+})
 
