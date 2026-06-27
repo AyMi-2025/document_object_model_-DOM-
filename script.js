@@ -2,7 +2,7 @@
         Selection of an Element 
    ==================================== */
 
-const { createElement } = require("react");
+// const { createElement } = require("react");
 
 // const h1 = document.querySelector("h1") // Universal (Always use this)
 // console.dir(h1) ------------ dir = directory 
@@ -116,3 +116,19 @@ console.log(div) */
 
 // Removee ------------------------------
 // body.removeChild(span)
+
+/* =========================================
+        Prevent Reloading  in Submit Button
+   ========================================= */
+
+const form = document.querySelector("form")
+const name = document.querySelector("#name")
+const email = document.querySelector('#email')
+
+form.addEventListener("click", (events) => {
+        events.preventDefault()
+        console.log(events);
+        console.log(events.target[0])
+        console.log(events.target[0].value) 
+        console.log(events.target[1].value)        
+})
